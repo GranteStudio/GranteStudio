@@ -1,0 +1,51 @@
+
+.nav-item-color {
+	color: #ffffff !important;
+	font-size: 18px;
+	margin-right: 25px;
+}
+
+.nav-item-color:last-child{
+	margin-right: 0;
+}
+
+.nav-item-color:hover {
+	color: #ffded1 !important;
+}
+
+.artist-login-btn {
+	border: solid 2px;
+	border-radius: 5px;
+	margin-left: 10px;
+	font-weight: 600;
+}
+
+.artist-studio-btn {
+	border: solid 2px;
+	border-radius: 5px;
+	margin-left: 10px;
+	font-weight: 600;
+}
+
+.navbar-sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 99;
+}
+.dropdown-toggle::after{
+    color: #ffffff;
+}
+.navbar-light .navbar-toggler-icon {
+	margin-left: 0px;
+}
+.navbar-collapse{
+	background-color: black;
+}
+a.dropdown-item:active {
+	background-color: #ffded1;
+}
+a.dropdown-item:hover {
+	background-color: #ffded1;
+	color: black;
+}
